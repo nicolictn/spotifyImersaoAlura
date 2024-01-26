@@ -1,12 +1,4 @@
-/*ROOT*/
 
-:root {
-    --font-padrao: "DM Sans", sans-serif;;
-    --color-font: #b3b3b3;
-    --color-bg-sidebar-navigation: #121212;
-    --color-bg-section-musics: #026b27;
-
-}
 
 /*GERAL*/
 
@@ -86,7 +78,7 @@ body {
     border: 0px; /*sem contorno da borda*/
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--font-padrao);
     text-align: center;
     text-decoration: none;
     text-transform: none; /*essa propriedade permite especificar como capitalizar um texto de um elemento*/
@@ -127,7 +119,7 @@ body {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color:#FFF;
-    font-family: "DM Sans", sans-serif;
+    font-family:  var(--font-padrao);
 }
 
 .section-playlist__content .title {
@@ -147,7 +139,7 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--font-padrao);
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -162,7 +154,7 @@ body {
 
 .sidebar .cookies a {
     color:#b3b3b3;
-    font-family: "DM Sans", sans-serif;
+    font-family:  var(--font-padrao);
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;
@@ -184,3 +176,65 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
+
+
+/*FOOTER*/
+
+.disclaimer-premium {
+    display: flex;
+    background-image: linear-gradient(to right, rgb(255, 113, 167), purple, blue);
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 590px;
+    padding: 12px;
+}
+
+.disclaimer-premium .text {
+    font-family: var(--font-padrao);
+    color: white;
+}
+
+.disclaimer-premium__title {
+    margin: 8px 0 4px 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--font-padrao);
+}
+
+
+
+.disclaimer-premium__subtitle {
+    margin: 8px 0 8px 16px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font-padrao);
+}
+
+.disclaimer-premium .button {
+    background-color: white;
+    border: 1px solid #878787;
+    border-radius: 16p;
+    font-family: var(--font-padrao);
+    text-align: center;
+    color:#FFF;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.disclaimer-premium button {
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer; /*modifica o cursor quando passar em cima desse item*/
+    text-decoration: none;
+    text-transform: none;
+    font-size: 16px;
+    color: #000000;
+}
+
