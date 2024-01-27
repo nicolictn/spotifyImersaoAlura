@@ -1,8 +1,18 @@
 :root {
     /*FONT*/
-    --font-padrao: "DM Sans", sans-serif;;
+    --font-padrao: "DM Sans", sans-serif;
+
+
+    /*COLORS*/
     --color-font: #b3b3b3;
     --color-bg-sidebar-navigation: #121212;
     --color-bg-section-musics: #026b27;
+
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,07);
+    --bg-search: #242424;
+
+
+
 
 }
